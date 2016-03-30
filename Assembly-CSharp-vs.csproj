@@ -48,7 +48,10 @@
   <ItemGroup>
      <Compile Include="Assets\Sprites\Generate.cs" />
      <Compile Include="Assets\Sprites\Obstacle.cs" />
+<<<<<<< HEAD
      <Compile Include="Assets\Sprites\ScoreManager.cs" />
+=======
+>>>>>>> origin/master
      <Compile Include="Assets\flying.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
