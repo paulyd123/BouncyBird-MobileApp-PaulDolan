@@ -9,10 +9,13 @@ public class Generate : MonoBehaviour
 	void Start()
 	{
 		InvokeRepeating("CreateObstacle", 1f, 2.5f);
+<<<<<<< HEAD
 
 		if (score > 10) {
 			InvokeRepeating("CreateObstacle", 1f, 1.5f);
 		}
+=======
+>>>>>>> origin/master
 	}
 	
 	// Update is called once per frame
@@ -27,6 +30,7 @@ public class Generate : MonoBehaviour
 		Instantiate(trees);
 		score++;
 	}
+<<<<<<< HEAD
 
 	/*void Start () {
 		CanMute = true;
@@ -44,4 +48,6 @@ public class Generate : MonoBehaviour
 			}
 		}
 	}*/
+=======
+>>>>>>> origin/master
 }
