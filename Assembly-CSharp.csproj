@@ -46,26 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
      <Compile Include="Assets\Scripts\Generate.cs" />
      <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\Obstacle.cs" />
      <Compile Include="Assets\Scripts\flying.cs" />
-=======
-<<<<<<< HEAD
-     <Compile Include="Assets\Scripts\Generate.cs" />
-     <Compile Include="Assets\Scripts\Obstacle.cs" />
-     <Compile Include="Assets\Scripts\flying.cs" />
-=======
      <Compile Include="Assets\Sprites\Generate.cs" />
      <Compile Include="Assets\Sprites\Obstacle.cs" />
-<<<<<<< HEAD
      <Compile Include="Assets\Sprites\ScoreManager.cs" />
-=======
->>>>>>> origin/master
-     <Compile Include="Assets\flying.cs" />
->>>>>>> origin/master
->>>>>>> origin/master
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

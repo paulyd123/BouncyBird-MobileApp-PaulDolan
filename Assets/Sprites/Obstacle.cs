@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Obstacle : MonoBehaviour
+public class Obstacles : MonoBehaviour
 {
 	public Vector2 velocity = new Vector2(-4, 0);
 	
