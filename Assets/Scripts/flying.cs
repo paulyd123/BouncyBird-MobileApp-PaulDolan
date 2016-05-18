@@ -2,12 +2,7 @@
 
 public class flying : MonoBehaviour
 {
-<<<<<<< HEAD
 	//This is for when the space bar is pressed so the bird will jump
-=======
-	// The force which is added when the player jumps
-	// This can be changed in the Inspector window
->>>>>>> origin/master
 	public Vector2 jumpForce = new Vector2(0, 300);
 	
 	// Update is called once per frame
@@ -20,11 +15,7 @@ public class flying : MonoBehaviour
 			GetComponent<Rigidbody2D>().AddForce(jumpForce);
 		}
 		
-<<<<<<< HEAD
 		// Dies when goes off screen
-=======
-		// Die by being off screen
->>>>>>> origin/master
 		Vector2 screenPosition = Camera.main.WorldToScreenPoint(transform.position);
 		if (screenPosition.y > Screen.height || screenPosition.y < 0)
 		{
@@ -32,11 +23,7 @@ public class flying : MonoBehaviour
 		}
 	}
 	
-<<<<<<< HEAD
 	// Dies by colliding
-=======
-	// Die by collision
->>>>>>> origin/master
 	void OnCollisionEnter2D(Collision2D other)
 	{
 		Die();
@@ -46,9 +33,6 @@ public class flying : MonoBehaviour
 	{
 		Application.LoadLevel(Application.loadedLevel);
 	}
-<<<<<<< HEAD
 
 
-=======
->>>>>>> origin/master
 }

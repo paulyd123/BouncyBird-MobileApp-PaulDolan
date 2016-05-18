@@ -12,9 +12,8 @@ public class Menu : MonoBehaviour {
 		Application.LoadLevel("Game");
 	}
 
-	void Update() {
-		if (Input.GetKey("exit"))
-			Application.Quit();
-		
+	public void Exit()
+	{
+		Application.Quit();
 	}
 }
